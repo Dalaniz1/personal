@@ -1,0 +1,109 @@
+body{
+    background-color: #d5f4e6;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.hero{
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.project-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.project {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 20px;
+  max-width: 300px;
+  text-align: center;
+}
+
+.center{
+    text-align: center;
+}
+
+.first{
+    color: #4bb5c1;
+}
+
+.second{
+    font-size: 2rem;
+    color: #618685;
+}
+
+.third{
+    font-size: 3rem;
+    color:  #4bb5c1;
+}
+
+.button{
+    background-color: #80ced6;
+    border-radius: 30px;
+    color: white;
+    font-size: 1.5rem;
+    padding: 10px 25px;
+}
+button:hover{
+    background-color: #618685;;
+}
+
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #618685;
+  }
+  
+ 
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #497070;
+  }
+
+  label[for = "email"]{
+    margin-left: -43px;
+  }
+
+  label[for = "name"]{
+    margin-left: -45px
+  }
+
+  label{
+    color: #497070;
+  }
+
+  h1{
+    color: #618685;
+  }
+
+  #about{
+    color: #4bb5c1;
+  }
+
+
+
