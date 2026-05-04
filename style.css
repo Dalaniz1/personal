@@ -37,6 +37,7 @@ body{
   grid-auto-rows: min-content;
   /*grid-template-rows: 1fr 1fr 1fr;*/
   gap: 10px;
+  color: #497070;
 }
 
 .center{
@@ -110,6 +111,10 @@ button:hover{
   }
 
   #about{
+    color: #4bb5c1;
+  }
+
+  .light{
     color: #4bb5c1;
   }
 
