@@ -3,14 +3,17 @@ body{
     margin: 0;
     font-family: 'Inter', sans-serif;
 }
- 
+
 .container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-content: center;
+    align-items: center;
     max-width: 1000px;
+    height: calc(100vh - 50px);
     margin: 0 auto;
-    padding: 40px 20px;
+    text-align: center;
+
 }
 
 .hero{
@@ -81,6 +84,7 @@ button:hover{
     padding: 0;
     overflow: hidden;
     background-color: #618685;
+    height: 50px;
   }
   
  
